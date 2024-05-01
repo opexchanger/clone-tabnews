@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "@types/node": "20.9.0",
     "@types/react": "18.2.37",
+    "prettier": "^3.2.5",
     "typescript": "5.2.2"
   }
 }
